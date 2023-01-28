@@ -1,3 +1,25 @@
-remote_theme: bbrewington/jekyll-theme-minimal
-logo: https://github.com/bbrewington/tree/main/assets/punt_dag_yo.jpg
-title: Dags, Yo - Brent Brewington's Data Engineering Blog
+title:              Clean Blog
+email:              brent.brewington@gmail.com
+description:        A Blog Theme by Start Bootstrap
+author:             Start Bootstrap
+baseurl:            "/startbootstrap-clean-blog-jekyll"
+url:                "https://dagsyo.com"
+
+# Social Profiles
+twitter_username:   SBootstrap
+github_username:    StartBootstrap
+facebook_username:  StartBootstrap
+instagram_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+# google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
